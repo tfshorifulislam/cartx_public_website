@@ -2,9 +2,7 @@
 
 @layer base {
   :root {
-    /* --------------------------------------------------
-     * CartX Brand Colors (Light Mode)
-     * -------------------------------------------------- */
+
     /* Primary Brand: Blue #2563EB */
     --primary: 221.2 83.2% 53.3%;
     --primary-foreground: 0 0% 100%;

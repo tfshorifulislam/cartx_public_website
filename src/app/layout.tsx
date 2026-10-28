@@ -9,13 +9,6 @@ const geistSans = Geist({
 });
 
 
-const notoSansBengali = Noto_Sans_Bengali({
-  variable: "--font-bengali",
-  subsets: ["bengali"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
 export const metadata: Metadata = {
   title: "CartX — Modern E-Commerce Logistics Platform",
   description:
@@ -30,7 +23,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${notoSansBengali.variable} h-full antialiased`}
+      className={` h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
         {children}
